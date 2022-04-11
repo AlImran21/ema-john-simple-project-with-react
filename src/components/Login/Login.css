@@ -1,0 +1,144 @@
+.form-container {
+    width: 600px;
+    height: auto;
+    background: #FFFFFF;
+    margin: 15px auto;
+    border: 1px solid #95A0A7;
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 5px 5px rgba(255, 224, 179, 1), 10px 10px rgba(255, 224, 179, 1), 15px 15px rgba(255, 224, 179, 1);
+}
+
+.form-title {
+    font-weight: 400;
+    font-size: 35px;
+    color: #2A414F;
+    text-align: center;
+
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-left: 5px;
+    color: #2A414F;
+    font-weight: 400;
+}
+
+.input-group input {
+    width: 415px;
+    height: 55px;
+    border: 1px solid #95A0A7;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 20px;
+    outline: none;
+    padding-left: 5px;
+
+}
+
+.form-submit {
+    background: rgba(255, 153, 0, 0.3);
+    width: 415px;
+    height: 55px;
+    outline: none;
+    border: none;
+    font-size: 21px;
+    font-weight: 400px;
+    color: #0E161A;
+    cursor: pointer;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.new-to-ema-text {
+    color: #2A414F;
+    margin-bottom: 18px;
+
+}
+
+.login-text {
+    color: #FF9900;
+    text-decoration: none;
+}
+
+.form-link {
+    color: #FF9900;
+    text-decoration: none;
+}
+
+.form-link-signup {
+    color: #2A414F;
+}
+
+.horizontal-divider {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.horizontal-divider p {
+    margin: 0 10px 2px 10px;
+    color: #95A0A7;
+}
+
+.line-right,
+.line-left {
+    height: 1px;
+    width: 145px;
+}
+
+.line-left {
+    border: 1px solid #95A0A7;
+    background-color: rgba(149, 160, 167, 1);
+}
+
+.line-right {
+    border: 1px solid #95A0A7;
+    background-color: rgba(149, 160, 167, 1);
+}
+
+.input-wrapper {
+    padding: 2px;
+    border-radius: 7px;
+    background-color: rgba(149, 160, 167, 1);
+    border: none;
+    margin: 55px 0;
+
+}
+
+.google-auth {
+    height: 55px;
+    width: 415px;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    border: 1px solid #95A0A7;
+    font-size: 18px;
+    position: relative;
+}
+
+.google-auth img {
+    position: absolute;
+    left: 80px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.google-auth p {
+    margin-left: 10px;
+    color: #2A414F;
+}
